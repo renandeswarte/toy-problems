@@ -6,6 +6,18 @@ var swapValues = function(array, i, j) {
   array[ j ] = temp;
 };
 
+var bubbleSort = function(array) {
+  for (var i = array.length - 1; i > 0; i--) {
+    for (var j = 0; j < i; j++) {
+      if (array[ j ] > array[ j + 1] ) {
+        swapValues( array , j , j + 1 );
+      }
+    }
+  }
+  return array;
+}
+
+/* Other Solution using a while loop */
 
 var bubbleSort = function(array) {
   // Set intitial sorted value to false to get into the loop
