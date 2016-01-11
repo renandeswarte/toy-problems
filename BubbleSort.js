@@ -17,7 +17,7 @@ var bubbleSort = function(array) {
   return array;
 }
 
-/* Other Solution using a while loop */
+// * Other Solution using a while loop *
 
 var bubbleSort = function(array) {
   // Set intitial sorted value to false to get into the loop
