@@ -5,3 +5,4 @@ Some solutions to programming challenges in JavaScript
 - [Balanced Parenthesis](BalancedParenthesis.js)
 - [BubbleSort](BubbleSort.js)
 - [Even Occurence](EvenOccurence.js)
+- [Longest Run](LongestRun.js)
